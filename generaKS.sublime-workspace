@@ -1,0 +1,569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Fr",
+				"FrontEndController"
+			],
+			[
+				"ed",
+				"end\tend (ERB)"
+			],
+			[
+				"arti",
+				"article"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"e",
+				"end\tend (ERB)"
+			],
+			[
+				"def",
+				"def\tdef … end"
+			],
+			[
+				"article",
+				"article_params"
+			],
+			[
+				"asse",
+				"assert_difference"
+			],
+			[
+				"ass",
+				"assert_response"
+			],
+			[
+				"te",
+				"test_helper"
+			],
+			[
+				"con",
+				"con\tCreate controller class"
+			],
+			[
+				"n",
+				"name"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"Sto",
+				"Story"
+			],
+			[
+				"st",
+				"st\tsubmit_tag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ff",
+				"ff\tform_for"
+			],
+			[
+				"ffl",
+				"ffl\tform_for label"
+			],
+			[
+				"Stor",
+				"story"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n\nuse Symfony\\Component\\Process\\Process;\nuse Symfony\\Component\\Process\\Exception\\ProcessFailedException;\n\n/*\n|--------------------------------------------------------------------------\n| Web Routes\n|--------------------------------------------------------------------------\n|\n| Here is where you can register web routes for your application. These\n| routes are loaded by the RouteServiceProvider within a group which\n| contains the \"web\" middleware group. Now create something great!\n|\n*/\n\nRoute::get('/', function () {\n\n\t$process = new Process('ip addr -a');\n\t$process->run();\n\n\t// executes after the command finishes\n\tif (!$process->isSuccessful()) {\n\t    throw new ProcessFailedException($process);\n\t}\n\n\treturn $process->getOutput();\n\n});cat ",
+			"file": "routes/web.php",
+			"file_size": 67,
+			"file_write_time": 131304419115650963,
+			"settings":
+			{
+				"buffer_size": 750,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 192.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Toggle Colorcode on this view"
+			],
+			[
+				"Snippet: ",
+				"Snippet: each_key { |key| .. }"
+			],
+			[
+				"paca",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package insta",
+				"Package Control: List Packages"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet:",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			],
+			[
+				"",
+				"Indexing Status"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fede/workspace/laravel/generaKS",
+		"/home/fede/workspace/laravel/generaKS/app",
+		"/home/fede/workspace/laravel/generaKS/app/Http",
+		"/home/fede/workspace/laravel/generaKS/public",
+		"/home/fede/workspace/laravel/generaKS/routes"
+	],
+	"file_history":
+	[
+		"/home/fede/workspace/laravel/generaKS/routes/web.php",
+		"/home/fede/workspace/laravel/biblios/app/Http/Controllers/FrontendController.php",
+		"/home/fede/workspace/laravel/biblios/app/Http/Controllers/Controller.php",
+		"/home/fede/workspace/laravel/biblios/routes/web.php",
+		"/home/fede/workspace/laravel/biblios/.env",
+		"/home/fede/workspace/rails/blog/app/views/welcome/index.html.erb",
+		"/home/fede/workspace/rails/blog/app/assets/stylesheets/application.css",
+		"/home/fede/.config/sublime-text-3/Packages/Colorcoder/Blackboard (Colorcoded).tmTheme",
+		"/home/fede/workspace/rails/blog/app/assets/stylesheets/articles.scss",
+		"/home/fede/workspace/rails/blog/config/routes.rb",
+		"/home/fede/workspace/rails/blog/app/models/article.rb",
+		"/home/fede/workspace/rails/blog/app/views/articles/new.html.erb",
+		"/home/fede/workspace/rails/blog/db/migrate/20161128135630_create_articles.rb",
+		"/home/fede/workspace/rails/blog/app/views/layouts/application.html.erb",
+		"/home/fede/workspace/rails/readit/app/controllers/stories_controller.rb",
+		"/home/fede/workspace/rails/readit/config/routes.rb",
+		"/home/fede/workspace/rails/readit/test/controllers/stories_controller_test.rb",
+		"/home/fede/workspace/rails/readit/test/models/story_test.rb",
+		"/home/fede/workspace/rails/readit/config.ru",
+		"/home/fede/workspace/rails/readit/app/assets/stylesheets/application.css",
+		"/home/fede/workspace/rails/readit/app/views/layouts/application.html.erb",
+		"/home/fede/workspace/rails/readit/app/views/stories/index.html.erb",
+		"/home/fede/workspace/rails/readit/app/views/stories/new.html.erb",
+		"/home/fede/workspace/rails/readit/app/models/story.rb",
+		"/home/fede/workspace/rails/readit/app/controllers/application_controller.rb",
+		"/home/fede/workspace/rails/readit/app/assets/javascripts/stories.coffee",
+		"/home/fede/workspace/rails/readit/test/fixtures/stories.yml",
+		"/home/fede/workspace/rails/readit/db/migrate/20161107154541_create_stories.rb",
+		"/home/fede/workspace/rails/readit/test/fixtures/.keep",
+		"/home/fede/workspace/rails/readit.sublime-project",
+		"/home/fede/workspace/rails/prova/prova.sublime-project",
+		"/home/fede/workspace/rails/prova/Gemfile",
+		"/home/fede/workspace/rails/prova/config/database.yml",
+		"/home/fede/workspace/laravel/Mycompany/composer.json"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/fede/workspace/rails/readit/test"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"title",
+			"\t  <%=",
+			"<%=",
+			">\n",
+			"title",
+			">\n",
+			"test",
+			"get",
+			"assert_select",
+			"assert_redirected_to",
+			"assert_response",
+			"\n    ",
+			"www.example.com",
+			"StoriesControllerTest",
+			"class"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										704,
+										705
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										695,
+										696
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"colorcode": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "generaKS.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rouweb",
+				"routes/web.php"
+			],
+			[
+				"migra",
+				"db/migrate/20161128135630_create_articles.rb"
+			],
+			[
+				"article.r",
+				"app/models/article.rb"
+			],
+			[
+				"articles",
+				"app/controllers/articles_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"index",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"wel",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"welcom",
+				"app/controllers/welcome_controller.rb"
+			],
+			[
+				"test",
+				"test/controllers/stories_controller_test.rb"
+			],
+			[
+				"sto",
+				"app/models/story.rb"
+			],
+			[
+				"applica",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"appl",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"stories.",
+				"app/assets/javascripts/stories.coffee"
+			],
+			[
+				"storiesco",
+				"test/controllers/stories_controller_test.rb"
+			],
+			[
+				"storiescon",
+				"app/controllers/stories_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
