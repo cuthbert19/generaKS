@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace generaKS\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
