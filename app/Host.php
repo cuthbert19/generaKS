@@ -7,15 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 class Host extends Model
 {
     public function interfaces() {
-    	return $this->has_many('Interface');
+    	return $this->hasMany('generaKS\Interface');
     }
 
-    public function Project() {
-    	return $this->belongs_to('Project');
+    public function project() {
+    	return $this->belongsTo('generaKS\Project');
     }
 
-    public function Partitioning() {
-    	return $this->belongs_to('Partitioning');
+    public function partitioning() {
+    	return $this->belongsTo('generaKS\Partitioning');
     }
 
 }

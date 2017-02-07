@@ -20,8 +20,8 @@ class CreatePartitioningsTable extends Migration
             $table->string('device');
             $table->string('devicetype');
             $table->integer('size')->default(0);
-            $table->string('fstype');
-            $table->string('logicalname');
+            $table->string('fstype')->nullable();
+            $table->string('logicalname')->nullable();
         });
     }
 

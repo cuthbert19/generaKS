@@ -1,5 +1,7 @@
 <?php
 
+//namespace generaKS;
+
 use Symfony\Component\Process\Process;
 use Symfony\Component\Process\Exception\ProcessFailedException;
 
@@ -17,3 +19,9 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 Route::get('/', function () {
 	return view('welcome');
 });
+
+Route::get('/hosts', function () {
+	return view('hosts');
+});
+
+Route::get('/hosts/index', 'HostController@index');

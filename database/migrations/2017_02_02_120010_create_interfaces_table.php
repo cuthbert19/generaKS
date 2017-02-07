@@ -16,16 +16,16 @@ class CreateInterfacesTable extends Migration
         Schema::create('interfaces', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('device');
+            $table->string('name');
             $table->string('pcislot');
-            $table->boolean('linkstatus');
-            $table->boolean('isbondmaster');
+            $table->boolean('linkstatus')->default(false);
+            $table->boolean('isbondmaster')->default(false);
             $table->string('bondslave');
-            $table->ipAddress('ipaddr');
-            $table->string('netmask');
-            $table->string('gateway');
-            $table->string('bcksubnet');
-            $table->string('bckmask');
+            $table->ipAddress('ipaddr')->nullable();
+            $table->string('netmask')->nullable();
+            $table->string('gateway')->nullable();
+            $table->string('bcksubnet')->nullable();
+            $table->string('bckmask')->nullable();
             $table->integer('host_id')->unsigned();
             $table->foreign('host_id')->references('id')->on('hosts')->onDelete('cascade');
         });

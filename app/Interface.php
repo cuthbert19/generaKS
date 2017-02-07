@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Interface extends Model
 {
     public function Host() {
-    	return $this->belongs_to('Host');
+    	return $this->belongsTo('generaKS\Host');
     }
 }
