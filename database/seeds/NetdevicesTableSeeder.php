@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class InterfacesTableSeeder extends Seeder
+class NetdevicesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +13,7 @@ class InterfacesTableSeeder extends Seeder
     {
         $now = date('Y-m-d H:i:s');
 
-        DB::table('interfaces')->insert([
+        DB::table('netdevices')->insert([
         	'name'=>'eth0',
         	'pcislot'=>'0000:01:00.0',
         	'linkstatus'=>true,

@@ -4,9 +4,12 @@ namespace generaKS;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Interface extends Model
+class Netdevice extends Model
 {
-    public function Host() {
+    public function host() {
+
     	return $this->belongsTo('generaKS\Host');
+
     }
+
 }

@@ -6,7 +6,18 @@ use Illuminate\Database\Eloquent\Model;
 
 class Partitioning extends Model
 {
-    public function hosts() {
-    	return $this->hasMany('generaKS\Host');
+
+    public function diskobjects() {
+
+    	return $this->hasMany('generaKS\Diskobject');
+
     }
+
+
+    public function hosts() {
+
+    	return $this->hasMany('generaKS\Host');
+
+    }
+    
 }

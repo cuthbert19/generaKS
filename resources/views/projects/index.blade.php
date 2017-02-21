@@ -7,21 +7,26 @@
 		<thead class="thead-inverse">
 		
 			<tr>
-			
-				@include('hosts.intestazione')
+
+				<th>Hostname</th>
+		
+				<th>Ip assegnato alla VM che effettua il deploy</th>
+		
+				<th>Subnet della VM</th>
+		
+				<th>Lista hosts</th>
 		
 			</tr>
-			
+		
 		</thead>
 		
-
 		<tbody>
 		
-			@foreach (\generaKS\Host::all() as $host)
+			@foreach ($projects as $project)
 			
 			<tr>
-
-				@include('hosts.host')
+				
+				@include('projects.project')
 
 			</tr>
 

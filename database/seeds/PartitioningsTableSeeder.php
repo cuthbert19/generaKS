@@ -14,11 +14,15 @@ class PartitioningsTableSeeder extends Seeder
         $now = date('Y-m-d H:i:s');
 
         DB::table('partitionings')->insert([
-        	'name'=>'default',
-        	'device'=>'sda',
-        	'devicetype'=>'disk',
+        	'name'=>'ICD-Partitioning',
         	'created_at'=>$now,
         	'updated_at'=>$now,        	
+        ]);
+
+        DB::table('partitionings')->insert([
+            'name'=>'DWHT-Partitions',
+            'created_at'=>$now,
+            'updated_at'=>$now,         
         ]);
     }
 }

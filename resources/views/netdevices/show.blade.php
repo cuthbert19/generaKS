@@ -6,27 +6,19 @@
 		
 		<thead class="thead-inverse">
 		
-			<tr>
-			
-				@include('hosts.intestazione')
+			@include('netdevices.intestazione')
 		
-			</tr>
-			
 		</thead>
 		
-
+		
 		<tbody>
 		
-			@foreach (\generaKS\Host::all() as $host)
-			
 			<tr>
-
-				@include('hosts.host')
+				
+				@include('netdevices.netdevice')
 
 			</tr>
 
-			@endforeach
-		
 		</tbody>
 	
 	</table>

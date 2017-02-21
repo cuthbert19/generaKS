@@ -11,4 +11,9 @@ class HostController extends Controller
 
 		return view('hosts.index')->with('hosts',Host::all());
     }
+
+    public function show(Host $host) {
+
+		return view('hosts.show',compact('host'));
+    }
 }

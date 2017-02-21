@@ -15,7 +15,7 @@ class HostsTableSeeder extends Seeder
 
         DB::table('hosts')->insert([
         	'name'=>'dicm2esertdme17',
-        	'netdevice'=>'em4',
+        	'device'=>'em4',
         	'macAddress'=>'00:AA:bb:cc:33:66',
         	'project_id'=>generaKS\Project::all()->random()->id,
         	'partitioning_id'=>generaKS\Partitioning::all()->random()->id,
@@ -24,7 +24,7 @@ class HostsTableSeeder extends Seeder
         ]);
         DB::table('hosts')->insert([
             'name'=>'dicm2esertdme18',
-            'netdevice'=>'em1',
+            'device'=>'em1',
             'macAddress'=>'00:AA:bb:cc:33:77',
             'project_id'=>generaKS\Project::all()->random()->id,
             'partitioning_id'=>generaKS\Partitioning::all()->random()->id,

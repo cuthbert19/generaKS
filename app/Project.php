@@ -6,7 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+
     public function hosts() {
-    	return $this->hasMany('Host');
+
+    	return $this->hasMany('generaKS\Host');
+
     }
+    
 }

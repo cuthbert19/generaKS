@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInterfacesTable extends Migration
+class CreateNetdevicesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,14 +13,14 @@ class CreateInterfacesTable extends Migration
      */
     public function up()
     {
-        Schema::create('interfaces', function (Blueprint $table) {
+        Schema::create('netdevices', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
             $table->string('pcislot');
             $table->boolean('linkstatus')->default(false);
             $table->boolean('isbondmaster')->default(false);
-            $table->string('bondslave');
+            $table->string('bondslave')->nullable();
             $table->ipAddress('ipaddr')->nullable();
             $table->string('netmask')->nullable();
             $table->string('gateway')->nullable();
@@ -38,6 +38,6 @@ class CreateInterfacesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('interfaces');
+        Schema::dropIfExists('netdevices');
     }
 }

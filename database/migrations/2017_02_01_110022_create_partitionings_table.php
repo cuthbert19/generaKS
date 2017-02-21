@@ -17,11 +17,6 @@ class CreatePartitioningsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
-            $table->string('device');
-            $table->string('devicetype');
-            $table->integer('size')->default(0);
-            $table->string('fstype')->nullable();
-            $table->string('logicalname')->nullable();
         });
     }
 

@@ -18,10 +18,25 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 
 Route::get('/', function () {
 	return view('welcome');
-});
+})->name('home');
 
-Route::get('/hosts', function () {
-	return view('hosts');
-});
 
-Route::get('/hosts/index', 'HostController@index');
+// Route::get('/hosts', function () {
+// 	return view('hosts');
+// });
+
+Route::get('/projects/{project}/hosts','ProjectController@show');
+
+// Route::get('/projects/{project}','ProjectController@show');
+Route::resource('/projects','ProjectController');
+
+
+// Route::get('/hosts/{host}','HostController@show');
+
+Route::resource('/hosts', 'HostController');
+
+
+Route::resource('/netdevices', 'NetdeviceController');
+
+
+Route::resource('/partitionings', 'PartitioningController');

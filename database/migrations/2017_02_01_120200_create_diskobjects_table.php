@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateHostsTable extends Migration
+class CreateDiskobjectsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,17 +13,14 @@ class CreateHostsTable extends Migration
      */
     public function up()
     {
-        Schema::enableForeignKeyConstraints();
-
-        Schema::create('hosts', function (Blueprint $table) {
+        Schema::create('diskobjects', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('name');
-            $table->unique('name');
             $table->string('device');
-            $table->macAddress('macaddress');
-            $table->integer('project_id')->unsigned();
-            $table->foreign('project_id')->references('id')->on('projects');
+            $table->string('devicetype');
+            $table->integer('size')->default(0);
+            $table->string('fstype')->nullable();
+            $table->string('logicalname')->nullable();
             $table->integer('partitioning_id')->unsigned();
             $table->foreign('partitioning_id')->references('id')->on('partitionings');
         });
@@ -36,6 +33,6 @@ class CreateHostsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('hosts');
+        Schema::dropIfExists('diskobjects');
     }
 }

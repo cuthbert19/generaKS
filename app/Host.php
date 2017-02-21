@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Host extends Model
 {
-    public function interfaces() {
-    	return $this->hasMany('generaKS\Interface');
+    public function netdevices() {
+    	return $this->hasMany('generaKS\Netdevice');
     }
 
     public function project() {
