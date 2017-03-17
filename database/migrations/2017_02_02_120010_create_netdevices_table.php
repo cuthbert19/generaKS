@@ -20,7 +20,7 @@ class CreateNetdevicesTable extends Migration
             $table->string('pcislot');
             $table->boolean('linkstatus')->default(false);
             $table->boolean('isbondmaster')->default(false);
-            $table->string('bondslave')->nullable();
+            $table->integer('bondslave')->default(0);
             $table->ipAddress('ipaddr')->nullable();
             $table->string('netmask')->nullable();
             $table->string('gateway')->nullable();

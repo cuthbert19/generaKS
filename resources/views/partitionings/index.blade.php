@@ -3,34 +3,38 @@
 @section('content')
 
 
-	<ul class="nav nav-tabs" role="tablist">
+<ul class="nav nav-tabs" role="tablist">
 
-		@foreach ($partitionings as $partitioning)
+	@foreach ($partitionings as $partitioning)
 
-			<li class="nav-item">
+	<li class="nav-item">
 
-		    	<a class="nav-link {{ $partitioning->id == 1 ? 'active' : '' }}" data-toggle="tab" href="#{{ $partitioning->name }}" role="tab">{{ $partitioning->name }}</a>
+		<a class="nav-link {{ $partitioning->id == 1 ? 'active' : '' }}" data-toggle="tab" href="#{{ $partitioning->name }}" role="tab">{{ $partitioning->name }}</a>
 
-		    </li>
+	</li>
 
-		@endforeach
+	@endforeach
 
-	</ul>
+</ul>
 
 
-	<div class="tab-content">
-  		
-	  @foreach ($partitionings as $partitioning)
+<div class="tab-content">
 
-  		<div class="tab-pane {{ $partitioning->id == 1 ? 'active' : '' }}" id="{{ $partitioning->name }}" role="tabpanel">
+	@foreach ($partitionings as $partitioning)
 
-			@include('diskobjects.show', ['partitioning_id' => $partitioning->id])
+	<div class="tab-pane {{ $partitioning->id == 1 ? 'active' : '' }}" id="{{ $partitioning->name }}" role="tabpanel">
 
-  		</div>
+		@include('diskobjects.show', ['partitioning_id' => $partitioning->id])
 
-  	  @endforeach
+		<a href="/partitionings/{{ $partitioning->id }}/diskobjects"><button class="btn btn-primary"><i class="fa fa-plus-square fa-lg"></i> Aggiungi nuovo device/mountpoint</button></a>
 
 	</div>
-	
+
+
+
+	@endforeach
+
+</div>
+
 
 @stop

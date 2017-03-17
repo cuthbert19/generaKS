@@ -2,7 +2,8 @@
 
 namespace generaKS;
 
-use Illuminate\Database\Eloquent\Model;
+use generaKS\Model;
+use generaKS\Netdevice;
 
 class Host extends Model
 {
@@ -16,6 +17,20 @@ class Host extends Model
 
     public function partitioning() {
     	return $this->belongsTo('generaKS\Partitioning');
+    }
+
+    public function addNetdevice($newnetdevice)
+    {
+
+        $this -> netdevices() -> create($newnetdevice);
+
+    }    
+
+    public function bondmasters()
+    {
+        
+        return $this->netdevices()->where('isbondmaster',true)->get();
+
     }
 
 }

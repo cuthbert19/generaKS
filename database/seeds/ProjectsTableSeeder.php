@@ -20,5 +20,14 @@ class ProjectsTableSeeder extends Seeder
         	'created_at'=>$now,
         	'updated_at'=>$now,
         ]);
+
+        DB::table('projects')->insert([
+            'name'=>'DWHT',
+            'ipVM'=>'192.168.150.1',
+            'subnetVM'=>'192.168.150.0/24',
+            'created_at'=>$now,
+            'updated_at'=>$now,
+        ]);
+
     }
 }

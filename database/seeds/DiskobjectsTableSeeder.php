@@ -37,7 +37,7 @@ class DiskobjectsTableSeeder extends Seeder
             'size' => '4096',
             'created_at'=>$now,
             'updated_at'=>$now,
-            'partitioning_id'=>2,       
+            'partitioning_id'=>1,       
         ]);
     }
 }

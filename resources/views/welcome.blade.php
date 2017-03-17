@@ -3,10 +3,37 @@
 
 @section('content')
 	
-	<div class="col-sm-6 offset-1">
+	<div class="row">
 
-		<example></example>
+			
+			<div class="col-md-5">
+
+
+				<a href="/projects/create">
+					
+					<button class="btn btn-lg btn-primary btn-block" id="newproject">Crea un nuovo progetto</button>
+
+				</a>
+				
+
+			</div>
+
+
+			<div class="col-md-5">
 		
-	</div>
+
+				<a href="/partitionings/create">
+					
+					<button class="btn btn-lg btn-primary btn-block" id="newproject">Crea un nuovo partizionamento</button>
+
+				</a>
+
+
+			</div>
+
+
+	</div>	{{-- row --}}
+
+	<example></example>
 
 @stop

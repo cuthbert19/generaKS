@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'Laravel',
+    'name' => 'Autodeploy Config',
 
     /*
     |--------------------------------------------------------------------------
@@ -77,7 +77,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'it',
 
     /*
     |--------------------------------------------------------------------------
@@ -162,11 +162,11 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
         /*
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
+        McCool\LaravelAutoPresenter\AutoPresenterServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -3,6 +3,7 @@
 namespace generaKS\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Validator;
 
 use Log;
 
@@ -16,13 +17,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        
+        /* view composers*/
         view()->composer('*', function ($view) {
 
-            $view->with('projects',\generaKS\Project::all());
+            $view   ->  with('projects',\generaKS\Project::all())
+                    ->  with('partitionings',\generaKS\Partitioning::all())
+            ;
 
         });
 
+        
     }
 
     /**

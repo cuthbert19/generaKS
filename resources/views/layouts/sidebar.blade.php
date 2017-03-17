@@ -1,17 +1,21 @@
-	@if ( $projects->count() > 0 )
+	@if ( isset($projects) )
 
-		@foreach ($projects as $prj)
+		@if ( $projects->count() > 0 )
 
-			<a href="/projects/{{ $prj->id }}" class="nav-link active">
-				
-				{{ $prj -> name }}
+			@foreach ($projects as $prj)
 
-			</a>
+				<a href="/projects/{{ $prj->id }}" class="nav-link active">
+					
+					{{ $prj -> name }}
 
-		@endforeach
+				</a>
+
+			@endforeach
+
+		@endif
 	
 	@else
 
 		<h3>Nessun progetto definito</h3>
-
+		
 	@endif

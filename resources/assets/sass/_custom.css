@@ -7,6 +7,10 @@ body {
 	/*background-color: #FFFFE0;*/
 }
 
+.container input {
+    min-width: 100px;   /* depends how much minimum width you require */
+}
+
 .sidebar {
 	/*background-color: #92C5FF;*/
 	position: fixed;
@@ -29,5 +33,40 @@ body {
 .table tbody>tr>td.vert-align {
 
 	vertical-align: middle;
+
+}
+
+.table tbody>tr>td.fill {
+
+	padding: 0 ;
+	border:  0 ;
+
+}
+
+.table tbody>tr>td>input.form-control {
+
+	padding-left: 7px ;
+	padding-right: 0 ;
+	/*border:  0 ;*/
+
+}
+
+
+.table tbody>tr.vert-align {
+
+	vertical-align: middle;
+
+}
+
+.table tbody>tr>td>div.panel-group>div.panel-default>div.panel-heading {
+
+	background-color: #3097D1 ;
+	color: #FFF;
+
+}
+
+select#partitioning {
+
+	height: 3.5rem;
 
 }

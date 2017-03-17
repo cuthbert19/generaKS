@@ -4,7 +4,7 @@
 
 		<li class="nav-item">
 
-		  <a class="nav-link {{ ( Request::is('/') or Request::is('projects*')) ? 'active' : '' }}" href="{{ url('projects') }}">Progetti<span class="sr-only">(current)</span></a>
+		  <a class="nav-link {{ Request::is('projects*') ? 'active' : '' }}" href="{{ url('projects') }}">Progetti<span class="sr-only">(current)</span></a>
 	
 		</li>
 	

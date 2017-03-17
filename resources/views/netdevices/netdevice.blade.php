@@ -1,12 +1,16 @@
-				<td class="vert-align">
+				@if (! (isset($printhost) and $printhost==false))
 
-					<a href="{{ url('hosts/' . $netdevice->host->id) }}">
-					
-						{{ $netdevice->host->name}}
+					<td class="vert-align">
 
-					</a>
+						<a href="{{ url('hosts/' . $netdevice->host->id) }}">
+						
+							{{ $netdevice->host->name}}
 
-				</td>
+						</a>
+
+					</td>
+
+				@endif
 
 				<td class="vert-align">{{ $netdevice->name}}</td>
 
@@ -14,7 +18,7 @@
 
 				<td class="vert-align">{{ $netdevice->linkstatus}}</td>
 
-				<td class="vert-align">{{ $netdevice->isbondmaster ? 'Sì' : 'no'}}</td>
+				<td class="vert-align">{{ $netdevice->isbondmaster}}</td>
 
 				<td class="vert-align">{{ $netdevice->bondslave}}</td>
 

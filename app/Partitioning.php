@@ -2,7 +2,7 @@
 
 namespace generaKS;
 
-use Illuminate\Database\Eloquent\Model;
+use generaKS\Model;
 
 class Partitioning extends Model
 {

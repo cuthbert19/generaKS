@@ -8,14 +8,8 @@
 		
 			<tr>
 
-				<th>Hostname</th>
-	
-				<th>Ip assegnato alla VM che effettua il deploy</th>
-		
-				<th>Subnet della VM</th>
-		
-				<th>Lista hosts</th>
-		
+				@include('projects.intestazione')
+				
 			</tr>
 		
 		</thead>

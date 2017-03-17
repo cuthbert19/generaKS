@@ -1,4 +1,4 @@
-			<table class="table table-striped table-bordered table-hover">
+			<table class="table table-striped {{-- table-bordered --}} table-hover">
 					
 				<thead class="thead-inverse">
 			
@@ -13,6 +13,8 @@
 						<tr>
 
 							@include('diskobjects.diskobject')
+
+							@include('diskobjects.editbuttons')
 						
 						</tr>
 

@@ -1,6 +1,10 @@
-			<tr>
+			<tr class="vert-align">
 
-				<th>Hostname</th>
+				@if ( ! (isset($printhost) and $printhost==false) )
+					
+					<th>Hostname</th>
+					
+				@endif
 
 				<th>Net device</th>
 		
@@ -8,7 +12,7 @@
 		
 				<th>Link status</th>
 
-				<th>E' BondMaster?</th>
+				<th>E' Bond Master?</th>
 
 				<th>Slave di</th>
 
