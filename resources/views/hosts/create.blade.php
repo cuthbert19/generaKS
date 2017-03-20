@@ -31,7 +31,7 @@
 
 				<button class="btn btn-primary" type="submit"><i class="fa fa-plus fa-lg"></i> Crea</button>
 
-				<button class="btn btn-outline-primary" type="button"><a href="/projects/{{ $project->id }}"><i class="fa fa-times fa-lg"></i> Annulla</a></button>
+				<button class="btn btn-outline-primary" type="button"><a href="{{ \Session::get('urlBack') }}"><i class="fa fa-times fa-lg"></i> Annulla</a></button>
 
 			</div>
 

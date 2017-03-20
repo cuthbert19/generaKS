@@ -4,7 +4,7 @@ namespace generaKS\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreCreateHost extends FormRequest
+class StoreEditHost extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -30,8 +30,8 @@ class StoreCreateHost extends FormRequest
         $macRegExp = "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$";
 
         $rules = [
-        'name'          =>  'required|unique:hosts',
-        'macaddress'    =>  'required|unique:hosts|regex:/' . $macRegExp . '/',
+        'name'          =>  'required',
+        'macaddress'    =>  'required|regex:/' . $macRegExp . '/',
         'device'        =>  'required',
         ];
 
@@ -50,10 +50,12 @@ class StoreCreateHost extends FormRequest
     {
 
         return [
-            'name.required' =>  'Il campo Hostname è necessario',
-            'name.unique'   =>  'E\' già presente un host con questo nome',
-            'macaddress.required' =>  'Il campo MAC Address è necessario',
-            'macaddress.unique'   =>  'Questo MAC Address è già presente',
+        'name.required' =>  'Il campo Hostname è necessario',
+        'name.composite_unique' => 'Esiste già un\'hostname con questo nome nel progetto',
+        'macaddress.required' =>  'Il campo MAC Address è necessario',
+        'macaddress.composite_unique' => 'Questo MAC address è già assegnato ad un altro hostname nel progetto',
+        'device.regex'      => 'Il MAC adress non è nel formato corretto',
+        'device.required'   => 'Il campo Device per Autodeploy è necessario',
         ];
 
     }

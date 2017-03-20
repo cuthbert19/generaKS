@@ -25,7 +25,7 @@
 
 										<a href="/hosts/{{ $host->id }}" class="nav-link">{{ $host->name}}</a>
 
-									</li> 
+									</li>
 
 									@endforeach
 									

@@ -16,8 +16,9 @@
 					'label_id'		=> 'name',
 					'field_name'	=> 'name',
 					'input_type'	=> 'text',
-					{{-- 'required'		=>	'1', --}}
-					'value'			=>	(old('name') != null) ? old('name') : (isset($oldhost) ? $oldhost->name : ''),
+					'required'		=>	'1',
+					{{-- 'value'			=>	(old('name') != null) ? old('name') : (isset($oldhost) ? $oldhost->name : ''), --}}
+					'value'			=>	old('name',(isset($oldhost) ? $oldhost->name : '')),
 
 				])
 
@@ -28,7 +29,8 @@
 					'field_name'	=> 'device',
 					'input_type'	=> 'text',
 					'required'		=>	'1',
-					'value'			=>	isset($oldhost) ? $oldhost->device : '',
+					{{-- 'value'			=>	isset($oldhost) ? $oldhost->device : '', --}}
+					'value'			=>	old('device',(isset($oldhost) ? $oldhost->device : '')),
 
 				])
 
@@ -40,6 +42,7 @@
 					'input_type'	=> 'text',
 					'required'		=>	'1', 
 					'value'			=>	isset($oldhost) ? $oldhost->macaddress : '',
+					'value'			=>	old('macaddress',(isset($oldhost) ? $oldhost->macaddress : '')),
 				])
 
 
@@ -53,7 +56,7 @@
 						
 						@foreach ($partitionings as $partitioning)
 							
-							<option value="{{ $partitioning -> id }}" name="partitioning">{{ $partitioning->name }}</option>
+							<option value="{{ $partitioning -> id }}" name="partitioning" @if(old('partitioning_id')) {{ old('partitioning_id') == $partitioning -> id ? 'selected' : ''}} @else @if (isset($oldhost)) {{ $oldhost->partitioning_id == $partitioning -> id ? 'selected' : ''}} @endif @endif>{{ $partitioning->name }}</option>
 
 						@endforeach
 

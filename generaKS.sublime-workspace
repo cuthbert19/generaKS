@@ -4,8 +4,124 @@
 		"selected_items":
 		[
 			[
-				"list",
-				"list-group-item-text \tBootstrap 4 Class"
+				"doc_",
+				"doc_d\tConstant Definition"
+			],
+			[
+				"doc",
+				"doc_s\tFunction Signature"
+			],
+			[
+				"btn-ou",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"btn-outl",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"sm",
+				"small \tBootstrap 4 Class"
+			],
+			[
+				"btn",
+				"btn-sm \tBootstrap 4 Class"
+			],
+			[
+				"netdevi",
+				"netdevice"
+			],
+			[
+				"method_",
+				"method_field\tL5 Method Field"
+			],
+			[
+				"offset-s",
+				"offset-sm-2 \tBootstrap 4 Class"
+			],
+			[
+				"off",
+				"offset-2 \tBootstrap 4 Class"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"inl",
+				"d-inline \tBootstrap 4 Class"
+			],
+			[
+				"Netdevice",
+				"NetdevicePresenter"
+			],
+			[
+				"cell",
+				"d-lg-table-cell \tBootstrap 4 Class"
+			],
+			[
+				"tabl",
+				"table-bordered \tBootstrap 4 Class"
+			],
+			[
+				"projec",
+				"project"
+			],
+			[
+				"req",
+				"request\tL5 Request"
+			],
+			[
+				"Bla",
+				"Blade::push\tBlade @push"
+			],
+			[
+				"Auth",
+				"Auth::user\tGet the currently authenticated user."
+			],
+			[
+				"btn-p",
+				"btn-outline-primary \tBootstrap 4 Class"
+			],
+			[
+				"flo",
+				"float-lg-right \tBootstrap 4 Class"
+			],
+			[
+				"fl",
+				"flex-last \tBootstrap 4 Class"
+			],
+			[
+				"bn",
+				"btn-block \tBootstrap 4 Class"
+			],
+			[
+				"col-sm",
+				"col-sm-2 \tBootstrap 4 Class"
+			],
+			[
+				"partition",
+				"partitioning"
+			],
+			[
+				"displa",
+				"display-3 \tBootstrap 4 Class"
+			],
+			[
+				"partitio",
+				"partitioning"
+			],
+			[
+				"partitioni",
+				"partitionings"
+			],
+			[
+				"disko",
+				"diskobject"
+			],
+			[
+				"displ",
+				"display-3 \tBootstrap 4 Class"
 			],
 			[
 				"offse",
@@ -28,12 +144,12 @@
 				"navbar-toggleable-md \tBootstrap 4 Class"
 			],
 			[
-				"col-sm",
-				"col-sm-1 \tBootstrap 4 Class"
-			],
-			[
 				"list-group",
 				"list-group-item \tBootstrap 4 Class"
+			],
+			[
+				"list",
+				"list-inline-item \tBootstrap 4 Class"
 			],
 			[
 				"View",
@@ -50,10 +166,6 @@
 			[
 				"text",
 				"text-align"
-			],
-			[
-				"off",
-				"offset-sm-1 \tBootstrap 4 Class"
 			],
 			[
 				"backgro",
@@ -159,7 +271,105 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1004,
+				"buffer_size": 1255,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/partitionings/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 408,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/diskobjects/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 466,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/partitionings/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 836,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Diskobject.php",
+			"settings":
+			{
+				"buffer_size": 278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/DiskobjectController.php",
+			"settings":
+			{
+				"buffer_size": 1386,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/diskobjects/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 1398,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Validators/CustomValidator.php",
+			"settings":
+			{
+				"buffer_size": 287,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+			"settings":
+			{
+				"buffer_size": 27451,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/NetdeviceController.php",
+			"settings":
+			{
+				"buffer_size": 2813,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/netdevices/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 1036,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/netdevices/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 1803,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -168,73 +378,16 @@
 			"file": "resources/views/layouts/master.blade.php",
 			"settings":
 			{
-				"buffer_size": 1764,
+				"buffer_size": 1976,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Host.php",
+			"file": "resources/views/netdevices/form.blade.php",
 			"settings":
 			{
-				"buffer_size": 378,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/HostController.php",
-			"settings":
-			{
-				"buffer_size": 324,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/layouts/header.blade.php",
-			"settings":
-			{
-				"buffer_size": 837,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/projects/show.blade.php",
-			"settings":
-			{
-				"buffer_size": 429,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/NetdeviceController.php",
-			"settings":
-			{
-				"buffer_size": 388,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/netdevices/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 375,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "@extends('layouts.master')\n\n@section('content')\n\n\t<table class=\"table table-striped table-bordered table-hover\">\n\t\t\n\t\t<thead class=\"thead-inverse\">\n\t\t\n\t\t\t@include('netdevices.intestazione')\n\t\t\n\t\t</thead>\n\n\t\t\n\t\t<tbody>\n\t\t\n\t\t\t<tr>\n\t\t\t\t\n\t\t\t\t@include('netdevices.netdevice',array)\n\n\t\t\t</tr>\n\n\t\t</tbody>\n\t\n\t</table>\n\n@stop",
-			"file": "resources/views/netdevices/show.blade.php",
-			"file_size": 313,
-			"file_write_time": 131320867162580714,
-			"settings":
-			{
-				"buffer_size": 317,
+				"buffer_size": 3125,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -243,16 +396,63 @@
 			"file": "resources/views/netdevices/intestazione.blade.php",
 			"settings":
 			{
-				"buffer_size": 320,
+				"buffer_size": 420,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resources/views/netdevices/netdevice.blade.php",
+			"contents": "<?php\n\nnamespace generaKS\\Http\\Requests;\n\nuse Illuminate\\Foundation\\Http\\FormRequest;\nuse Illuminate\\Validation\\Rule;\n\nclass StoreCreateNetDevice extends FormRequest\n{\n    /**\n     * Determine if the user is authorized to make this request.\n     *\n     * @return bool\n     */\n    public function authorize()\n    {\n        return true;\n    }\n\n    /**\n     * Get the validation rules that apply to the request.\n     *\n     * @return array\n     */\n    public function rules()\n    {\n\n        // extends Validator only for this request\n        \\Validator::extend( 'composite_unique', function ( $attribute, $value, $parameters, $validator ) {\n\n            if ($attribute=='pcislot' and $value=='none') {\n                return true;\n            }\n\n            // remove first parameter and assume it is the table name\n            $table = array_shift( $parameters ); \n\n            // start building the conditions\n            $fields = [ $attribute => $value ]; // current field\n\n            // iterates overe other parameters and build the conditions for all the required fields\n            while ( $field = array_shift( $parameters ) ) {\n                $fields[ $field ] = $this->get( $field );\n            }\n\n            // query the table with all the conditions\n            $result = \\DB::table( $table )->select( )->where( $fields )->first();\n\n            return empty( $result ); // edited here\n        });\n\n        // always defined rules\n        $rules = [\n        'name'      =>  'required|composite_unique:netdevices,host_id',\n        'pcislot'   =>  'required|composite_unique:netdevices,host_id',\n        ];\n\n        $request = $this->request;\n\n        // other-field-based rules\n        if ($request->get('linkstatus') == 1) {\n\n            if ( ($request->get('isbondmaster') == 1) or ($request->get('bondslave') == 0) ) {\n\n                $rules['ipaddr'] = 'required|ipv4';\n                $rules['netmask'] = 'required|ipv4';  \n            } \n\n        }\n\n        if ($request->get('bcksubnet') != '') {\n\n            $rules['bcksubnet'] = 'ipv4';\n            $rules['bckmask'] = 'required|ipv4';\n        }\n        \n        return  $rules;\n    }\n\n\n    public function messages()\n    {\n\n        return [\n        'name.required' =>  'Il campo Net device è necessario',\n        'pcislot.required' =>  'Il campo PCI Slot è necessario (inserire \\'none\\' in caso di bond master)',\n        'ipaddr.required' => 'Il campo IP Address non può essere vuoto',\n        'ipaddr.ipv4' => 'Il campo IP Address non è nel formato corretto',\n        'netmask.required' => 'Il campo Netmask non può essere vuoto se hai indicato l\\'IP Address',\n        'netmask.ipv4' => 'Il campo Netmask non è nel formato corretto',\n        'gateway.ipv4' => 'Il campo Gateway non è nel formato corretto',\n        'bcksubnet.ipv4' => 'Il campo IP Subnet Backup non è nel formato corretto',\n        'bckmask.required' => 'Il campo Mask per subnet Backup è necessario se hai indicato la subnet di backup' ,\n        'bckmask.ipv4' => 'Il campo Mask per subnet Backup non è nel formato corretto',\n        'name.composite_unique' => 'Esiste già un\\'interfaccia con questo nome configurata sul sistema',\n        'pcislot.composite_unique' => 'Esiste già un\\'interfaccia con questo PCI slot configurata sul sistema',\n        ];\n\n    }\n}\n",
+			"file": "app/Http/Requests/StoreCreateNetDevice.php",
+			"file_size": 3320,
+			"file_write_time": 131341577413778261,
 			"settings":
 			{
-				"buffer_size": 751,
+				"buffer_size": 3305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Providers/AppServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/inputcella.blade.php",
+			"settings":
+			{
+				"buffer_size": 332,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/assets/sass/_custom.css",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Requests/StoreCreateDiskobject.php",
+			"settings":
+			{
+				"buffer_size": 679,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Netdevice.php",
+			"settings":
+			{
+				"buffer_size": 554,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -261,17 +461,63 @@
 			"file": "resources/views/hosts/host.blade.php",
 			"settings":
 			{
-				"buffer_size": 640,
+				"buffer_size": 1801,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Http/Controllers/ProjectController.php",
+			"file": "resources/views/projects/project.blade.php",
 			"settings":
 			{
-				"buffer_size": 339,
+				"buffer_size": 1436,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/hosts/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/projects/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 1021,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": " @extends('layouts.master')\n\n@section('content')\n\n<div class=\"row\">\n\n\t<h1 class=\"display-4\">Aggiunge un nuovo device/mountpoint</h1>\n\n</div>\n\n\n<hr>\n\n\n<div class=\"row\">\n\n\t<form method=\"POST\" action=\"/partitionings\" >\n\n\t\t{{ csrf_field() }}\n\n\t\t\t{{-- @if ()\n\t\t\t\texpr\n\t\t\t\t@endif --}}\n\t\t\t\t<p class=\"muted small\">I campi sono pre-popolati a partire da quelli dell'ultimo device/mountpoint configurato</p>\n\n\n\t\t\t\t<table class=\"table table-striped table-bordered table-hover\">\n\n\t\t\t\t\t<thead class=\"thead-inverse\">\n\n\t\t\t\t\t\t@include('partitionings.intestazione')\n\n\t\t\t\t\t</thead>\n\n\n\t\t\t\t\t<tbody>\n\n\t\t\t\t\t\t{{-- Visualizzazione delle schede di rete già configurate per l'host --}}\n\t\t\t\t\t\t@if ($netdevices -> count() > 0)\n\n\t\t\t\t\t\t@foreach ($netdevices as $netdevice)\n\n\t\t\t\t\t\t<tr>\n\n\t\t\t\t\t\t\t@include('netdevices.netdevice')\n\n\t\t\t\t\t\t</tr>\n\n\t\t\t\t\t\t@endforeach\n\t\t\t\t\t\t\n\t\t\t\t\t\t@endif\n\n\t\t\t\t\t\t{{-- form per l'inserimento dei dati della nuova interfaccia, sempre in tabella --}}\n\t\t\t\t\t\t<tr>\n\n\t\t\t\t\t\t\t@include('netdevices.form')\n\n\t\t\t\t\t\t</tr>\n\n\t\t\t\t\t</tbody>\n\n\t\t\t\t</table>\n\n\n\t\t\t\t<div class=\"form-group\">\n\n\t\t\t\t\t<button class=\"btn btn-primary btn-lg \" type=\"submit\">Aggiungi</button>\n\n\t\t\t\t</div>\n\n\n\t\t\t\t@if ($errors->count() > 0)\n\t\t\t\t\n\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t<div class=\"alert alert-danger\">\n\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t@foreach ($errors->all() as $error)\n\t\t\t\t\t\t\t\t<li>{{ $error }}</li>\n\t\t\t\t\t\t\t\t@endforeach\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t@endif\n\n\t\t\t</form>\n\n\t\t</div>\n\n\n\t\t@stop",
+			"file": "resources/views/partitionings/create.blade.php",
+			"file_size": 1484,
+			"file_write_time": 131334004077530607,
+			"settings":
+			{
+				"buffer_size": 1484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/diskobjects/editbuttons.blade.php",
+			"settings":
+			{
+				"buffer_size": 346,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/netdevices/editbuttons.blade.php",
+			"settings":
+			{
+				"buffer_size": 342,
 				"line_ending": "Unix"
 			}
 		}
@@ -283,10 +529,58 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "sniptabl",
+		"height": 375.0,
+		"last_filter": "pack",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"do",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"larav",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"sniptable",
+				"Snippet: table"
+			],
+			[
+				"snip table",
+				"Snippet: Google AJAX Libraries: jQuery UI"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"snipform",
+				"Snippet: form"
+			],
+			[
+				"form",
+				"Snippet: form"
+			],
+			[
+				"snipp",
+				"Snippet: dashboard"
+			],
+			[
+				"snippets",
+				"Snippet: success"
+			],
 			[
 				"sniptabl",
 				"Snippet: table"
@@ -296,16 +590,8 @@
 				"Snippet: navbar"
 			],
 			[
-				"packa",
-				"Package Control: List Packages"
-			],
-			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"synblade",
@@ -372,7 +658,7 @@
 				"Indexing Status"
 			]
 		],
-		"width": 503.0
+		"width": 937.0
 	},
 	"console":
 	{
@@ -395,68 +681,145 @@
 		"/home/fede/workspace/laravel/generaKS-2",
 		"/home/fede/workspace/laravel/generaKS-2/app",
 		"/home/fede/workspace/laravel/generaKS-2/app/Http",
-		"/home/fede/workspace/laravel/generaKS-2/bootstrap/cache",
-		"/home/fede/workspace/laravel/generaKS-2/public/js",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers",
+		"/home/fede/workspace/laravel/generaKS-2/app/Presenters",
+		"/home/fede/workspace/laravel/generaKS-2/app/Providers",
+		"/home/fede/workspace/laravel/generaKS-2/app/Validators",
 		"/home/fede/workspace/laravel/generaKS-2/resources",
-		"/home/fede/workspace/laravel/generaKS-2/resources/assets/js",
-		"/home/fede/workspace/laravel/generaKS-2/resources/assets/sass",
+		"/home/fede/workspace/laravel/generaKS-2/resources/assets",
+		"/home/fede/workspace/laravel/generaKS-2/resources/lang",
+		"/home/fede/workspace/laravel/generaKS-2/resources/lang/it",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/diskobjects",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/layouts",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects",
-		"/home/fede/workspace/laravel/generaKS-2/routes",
-		"/home/fede/workspace/laravel/generaKS-2/storage/app",
-		"/home/fede/workspace/laravel/generaKS-2/storage/app/public"
+		"/home/fede/workspace/laravel/generaKS-2/routes"
 	],
 	"file_history":
 	[
-		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120010_create_netdevices_table.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices/intestzione.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Netdevice.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/layouts/sidebar.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/host.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/index.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/project.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/index.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/public/js/app.js",
-		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/Factory.php",
+		"/home/fede/workspace/laravel/generaKS-2/node_modules/laravel-mix/src/Collection.js",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/Rule.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/Rules/Unique.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithFlashData.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Session/Store.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/symfony/http-foundation/ParameterBag.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Contracts/Validation/ValidatesWhenResolved.php",
 		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Http/Request.php",
-		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Support/Str.php",
-		"/home/fede/workspace/laraveindex.blade.php.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/show.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/NetdeviceController.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/PartitioningController.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/seeds/DatabaseSeeder.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/seeds/NetdevicesTableSeeder.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/seeds/HostsTableSeeder.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Project.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Netdevice.php.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/NetdeviceController.php.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120010_create_interfaces_table.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120007_create_hosts_table.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/seeds/InterfacesTableSeeder.php",
-		"/home/fede/workspace/laravel/generaKS-2/resources/assets/sass/_custom.css",
-		"/home/fede/workspace/laravel/generaKS-2/resources/views/welcome.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Support/Facades/Validator.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/vlucas/phpdotenv/src/Validator.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Providers/BroadcastServiceProvider.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/diskobjects/create.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/diskobjects/form.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings/create.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices/editbuttons.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Presenters/NetdevicePresenter.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Host.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices/create.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/host.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/project.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/assets/sass/app.scss",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices/netdevice.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Routing/Console/stubs/controller.model.stub",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/ValidationRuleParser.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices/form.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/diskobjects/diskobject.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Requests/StoreCreateNetDevice.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/DiskobjectsTableSeeder.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Partitioning.php",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/layouts/master.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/HostController.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Diskobject.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings/intestazione.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Requests/StoreCreateHost.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/ValidatesWhenResolvedTrait.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Foundation/Providers/FormRequestServiceProvider.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/form.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/NetdevicesTableSeeder.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120010_create_netdevices_table.php",
+		"/home/fede/workspace/laravel/generaKS-2/config/app.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/psy/psysh/src/Psy/ConfigPaths.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Project.php",
+		"/home/fede/workspace/laravel/generaKS-2/composer.json",
+		"/home/fede/workspace/laravel/generaKS-2/resources/assets/sass/_custom.css",
+		"/home/fede/workspace/laravel/generaKS-2/storage/framework/views/4e1efadbe14faa41dfdb2556afff3cc2f41aeafd.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/create.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/layouts/inputriga.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/ValidationServiceProvider.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/index.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Providers/AppServiceProvider.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/lang/it/validation.php",
+		"/home/fede/workspace/laravel/generaKS-2/config/filesystems.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/lang/it/passwords.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/lang/it/auth.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/lang/it/pagination.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/ProjectsTableSeeder.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/ProjectController.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/sebastian/global-state/src/Exception.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/mockery/mockery/library/Mockery/Exception.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/league/flysystem/src/Exception.php",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/phpspec/prophecy/src/Prophecy/Exception/Exception.php",
+		"/home/fede/workspace/laravel/generaKS-2/storage/framework/views/abca35a0ecfc6c572e150e3ee7b2b61879ad4662.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/create.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/layouts/sidebar.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/welcome.blade.php",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/layouts/header.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/netdevices/intestazione.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/assets/js/app.js",
+		"/home/fede/workspace/laravel/generaKS-2/storage/framework/views/9f15b22ed3bf7c14bd6b4e83b77b5b9041fc3c7d.php",
+		"/home/fede/workspace/laravel/generaKS-2/storage/framework/views/67923331f472cb5c1f2ff358aeafab24336036b2.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Netdevice.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Model.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/intestazione.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/PartitioningController.php",
+		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/NetdeviceController.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/show.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/projects/show.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/config/session.php",
+		"/home/fede/workspace/laravel/generaKS-2/.env",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/index.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts/intestazione.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings/show.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings/index.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/diskobjects/show.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/assets/js/components/Example.vue",
+		"/home/fede/workspace/laravel/generaKS-2/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings/diskobject.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/PartitioningsTableSeeder.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_01_120200_create_diskobjects_table.php",
+		"/home/fede/workspace/laravel/generaKS-2/resources/views/partitionings/partitioning.blade.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/DatabaseSeeder.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_115949_create_diskobject_table.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120200_create_diskobjects_table.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_20_230022_create_partitionings_table.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/2017_02_02_115949_create_diskobject_table.php",
 		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_115957_create_projects_table.php",
 		"/home/fede/workspace/laravel/generaKS-2/app/Interface.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Host.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Providers/AppServiceProvider.php",
 		"/home/fede/workspace/laravel/generaKS-2/bootstrap/app.php",
 		"/home/fede/workspace/laravel/generaKS-2/storage/framework/views/9a0bbcf46f591b32db4138bf58c2d744bb2b500a.php",
 		"/home/fede/workspace/laravel/generaKS-2/package.json",
-		"/home/fede/workspace/laravel/generaKS-2/resources/assets/sass/app.scss",
 		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/InterfaceController.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120010_create_interfaces_table.php",
 		"/home/fede/workspace/laravel/generaKS-2/resources/views/hosts.blade.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Http/Controllers/HostController.php",
 		"/home/fede/workspace/laravel/generaKS-2/app/Providers/RouteServiceProvider.php",
-		"/home/fede/workspace/laravel/generaKS-2/app/Partitioning.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/HostsTableSeeder.php",
 		"/home/fede/workspace/laravel/generaKS-2/vendor/symfony/routing/Route.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/seeds/ProjectsTableSeeder.php",
-		"/home/fede/workspace/laravel/generaKS-2/database/seeds/PartitioningsTableSeeder.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/seeds/InterfacesTableSeeder.php",
 		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_115949_create_partitionings_table.php",
+		"/home/fede/workspace/laravel/generaKS-2/database/migrations/2017_02_02_120007_create_hosts_table.php",
 		"/home/fede/workspace/laravel/generaKS-2/routes/web.php",
 		"/home/fede/workspace/laravel/generaKS/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Factory.php",
 		"/home/fede/workspace/laravel/generaKS/vendor/laravel/framework/src/Illuminate/Database/Eloquent/FactoryBuilder.php",
@@ -464,55 +827,19 @@
 		"/home/fede/workspace/laravel/generaKS/database/migrations/2017_02_02_115949_create_partitionings_table.php",
 		"/home/fede/workspace/laravel/generaKS/database/migrations/2017_02_02_115957_create_projects_table.php",
 		"/home/fede/workspace/laravel/generaKS/database/migrations/2017_02_02_120007_create_hosts_table.php",
-		"/home/fede/workspace/laravel/generaKS/app/Project.php",
-		"/home/fede/workspace/laravel/generaKS/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php",
-		"/home/fede/workspace/laravel/generaKS/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php",
-		"/home/fede/workspace/laravel/generaKS/app/Http/Controllers/PartitioningController.php",
-		"/home/fede/workspace/laravel/generaKS/app/partitioning.php",
-		"/home/fede/workspace/laravel/generaKS/routes/web.php",
-		"/home/fede/workspace/laravel/biblios/app/Http/Controllers/FrontendController.php",
-		"/home/fede/workspace/laravel/biblios/app/Http/Controllers/Controller.php",
-		"/home/fede/workspace/laravel/biblios/routes/web.php",
-		"/home/fede/workspace/laravel/biblios/.env",
-		"/home/fede/workspace/rails/blog/app/views/welcome/index.html.erb",
-		"/home/fede/workspace/rails/blog/app/assets/stylesheets/application.css",
-		"/home/fede/.config/sublime-text-3/Packages/Colorcoder/Blackboard (Colorcoded).tmTheme",
-		"/home/fede/workspace/rails/blog/app/assets/stylesheets/articles.scss",
-		"/home/fede/workspace/rails/blog/config/routes.rb",
-		"/home/fede/workspace/rails/blog/app/models/article.rb",
-		"/home/fede/workspace/rails/blog/app/views/articles/new.html.erb",
-		"/home/fede/workspace/rails/blog/db/migrate/20161128135630_create_articles.rb",
-		"/home/fede/workspace/rails/blog/app/views/layouts/application.html.erb",
-		"/home/fede/workspace/rails/readit/app/controllers/stories_controller.rb",
-		"/home/fede/workspace/rails/readit/config/routes.rb",
-		"/home/fede/workspace/rails/readit/test/controllers/stories_controller_test.rb",
-		"/home/fede/workspace/rails/readit/test/models/story_test.rb",
-		"/home/fede/workspace/rails/readit/config.ru",
-		"/home/fede/workspace/rails/readit/app/assets/stylesheets/application.css",
-		"/home/fede/workspace/rails/readit/app/views/layouts/application.html.erb",
-		"/home/fede/workspace/rails/readit/app/views/stories/index.html.erb",
-		"/home/fede/workspace/rails/readit/app/views/stories/new.html.erb",
-		"/home/fede/workspace/rails/readit/app/models/story.rb",
-		"/home/fede/workspace/rails/readit/app/controllers/application_controller.rb",
-		"/home/fede/workspace/rails/readit/app/assets/javascripts/stories.coffee",
-		"/home/fede/workspace/rails/readit/test/fixtures/stories.yml",
-		"/home/fede/workspace/rails/readit/db/migrate/20161107154541_create_stories.rb",
-		"/home/fede/workspace/rails/readit/test/fixtures/.keep",
-		"/home/fede/workspace/rails/readit.sublime-project",
-		"/home/fede/workspace/rails/prova/prova.sublime-project",
-		"/home/fede/workspace/rails/prova/Gemfile",
-		"/home/fede/workspace/rails/prova/config/database.yml",
-		"/home/fede/workspace/laravel/Mycompany/composer.json"
+		"/home/fede/workspace/laravel/generaKS/app/Project.php"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			"<current file>",
+			"<open folders>",
 			"/home/fede/workspace/rails/readit/test"
 		]
 	},
@@ -521,20 +848,118 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<?",
+			"isbondmaster",
+			"Up",
+			"Down",
+			"linkstatus",
+			"Down",
+			"No",
+			"isbondmaster",
+			"\t\t\t<option value=\"0\" {{ (old('isbondmaster',(isset($oldnetdevice) ? $oldnetdevice->isbondmaster : '')) == 'No') ? 'selected' : '' }}>No</option>\n",
+			"Up",
+			"Down",
+			"linkstatus",
+			"Down",
+			"name",
+			"ipaddress",
+			"rules",
+			"validate",
+			"this",
+			"attributes($parameters[0])",
+			"attributes[$parameters[0]]",
+			"$parameters[2]",
+			"alt",
+			"netdev",
+			"host",
+			"project",
+			"host",
+			"p",
+			"netdevice",
+			"netdevices",
+			"h4",
+			"collapse1",
+			"netdevice",
+			"NetDevice",
+			"fstype",
+			"bckmask",
+			"$diskobject",
+			"diskobject",
+			"bondmaster",
+			"oldnetdevice",
+			"bondslave",
+			"linkstatus",
+			"devicetype",
+			"pcislot",
+			"name",
+			"oldnetdevice",
+			"name",
+			"netdevice",
+			"host",
+			"Netdevice",
+			"netdevice",
+			"project",
+			"host",
+			"hosts",
+			"project",
+			"netdevice",
+			"Netdevice",
+			"netdevice",
+			"host",
+			"hosts",
+			"ipaddr",
+			"macaddress",
+			"isbondmaster",
+			"linkstatus",
+			"StoreCreateNetDevice",
+			"StoreCreate",
+			"StoreCreateHost",
+			"required",
+			"hostarray",
+			"addNetdevice",
+			"newhostarray",
+			"linkstatus",
+			"host",
+			"device",
+			"name",
+			"inputriga",
+			"netdevices",
+			"macaddress",
+			"device",
+			"host",
+			"project",
+			"Project",
+			"project",
+			"project_id",
+			"project",
+			"oldhost",
+			"hosts",
+			"project",
+			"progetto",
+			"Host",
+			"host",
 			"project",
 			"projects",
-			"host",
-			"pill",
-			"pills",
-			"pill",
-			"data-to",
-			"interface",
-			"interfaces",
-			"Interfaces",
-			"Netdevice",
-			"netdevices",
+			"hostname",
+			"optional",
+			"subnetVM",
+			"ipVM",
+			"',\n",
+			"id",
+			"fieldset",
+			"form-inline",
+			"10",
+			"ipVM",
+			"formGroupExampleInput2",
+			"formGroupExampleInput",
+			"verify",
 			"project",
-			"<>",
+			"partitioning",
+			"netdevice",
+			"host_id",
+			"diskobjects",
+			"artitioning",
+			"netdevice",
 			"navbare",
 			"div",
 			"->",
@@ -550,10 +975,7 @@
 			"assert_select",
 			"assert_redirected_to",
 			"assert_response",
-			"\n    ",
-			"www.example.com",
-			"StoriesControllerTest",
-			"class"
+			"\n    "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -561,6 +983,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"attributes()[$parameters[0]]",
+			"attributes($parameters[0])",
+			"olddiskobject",
 			"=>"
 		],
 		"reverse": false,
@@ -572,7 +997,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 20,
 			"sheets":
 			[
 				{
@@ -581,15 +1006,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1004,
+						"buffer_size": 1255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								988,
-								988
+								990,
+								990
 							]
 						],
 						"settings":
@@ -601,8 +1026,8 @@
 								{
 									"1":
 									[
-										1000,
-										1001
+										990,
+										991
 									]
 								},
 								"icon":
@@ -617,8 +1042,8 @@
 								{
 									"1":
 									[
-										980,
-										981
+										978,
+										979
 									]
 								},
 								"unmatched":
@@ -627,36 +1052,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -667,47 +1097,143 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_unmatched_content"
 							],
-							"colorcode": true,
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 136.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/layouts/master.blade.php",
+					"file": "resources/views/partitionings/show.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1764,
+						"buffer_size": 408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1018,
-								1018
+								355,
+								315
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/diskobjects/show.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
 							]
 						],
 						"settings":
@@ -719,8 +1245,126 @@
 								{
 									"1":
 									[
-										1020,
-										1022
+										59,
+										60
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										38,
+										39
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/partitionings/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								617,
+								617
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										793,
+										794
 									]
 								},
 								"icon":
@@ -735,8 +1379,8 @@
 								{
 									"1":
 									[
-										973,
-										975
+										618,
+										619
 									]
 								},
 								"unmatched":
@@ -745,36 +1389,41 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -785,400 +1434,42 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Host.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 378,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										376,
-										377
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										94,
-										95
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/Http/Controllers/HostController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								196,
-								196
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										228,
-										229
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										164,
-										165
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resources/views/layouts/header.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 837,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								117,
-								117
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										118,
-										119
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										114,
-										115
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 153.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "resources/views/projects/show.blade.php",
+					"buffer": 4,
+					"file": "app/Diskobject.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 429,
+						"buffer_size": 278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								382,
-								382
+								82,
+								82
 							]
 						],
 						"settings":
@@ -1190,15 +1481,15 @@
 								{
 									"1":
 									[
-										382,
-										383
+										276,
+										277
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -1206,8 +1497,8 @@
 								{
 									"1":
 									[
-										365,
-										366
+										80,
+										81
 									]
 								},
 								"unmatched":
@@ -1216,31 +1507,51 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1250,145 +1561,7 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/Http/Controllers/NetdeviceController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 388,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										373,
-										374
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/single_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										363,
-										364
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_double_quote_content"
 							],
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
@@ -1396,24 +1569,259 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "resources/views/netdevices/index.blade.php",
+					"buffer": 5,
+					"file": "app/Http/Controllers/DiskobjectController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 375,
+						"buffer_size": 1386,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								206,
-								206
+								1246,
+								1246
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1381,
+										1382
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										768,
+										769
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 173.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/diskobjects/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1335,
+										1337
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1231,
+										1233
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Validators/CustomValidator.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
 							]
 						],
 						"settings":
@@ -1424,12 +1832,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										282,
+										283
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										134,
+										135
+									]
 								},
 								"unmatched":
 								{
@@ -1437,31 +1860,129 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8932,
+								8932
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										9137,
+										9138
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										7319,
+										7320
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1477,21 +1998,398 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/Http/Controllers/NetdeviceController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								706,
+								706
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1007,
+										1008
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										517,
+										518
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 408.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "resources/views/netdevices/edit.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										649,
+										655
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										586,
+										592
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "resources/views/netdevices/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								377,
+								377
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										380,
+										381
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										368,
+										369
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
 							"translate_tabs_to_spaces": false
@@ -1504,20 +2402,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "resources/views/netdevices/show.blade.php",
+					"buffer": 12,
+					"file": "resources/views/layouts/master.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 317,
+						"buffer_size": 1976,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								1837,
+								1837
 							]
 						],
 						"settings":
@@ -1529,127 +2427,8 @@
 								{
 									"1":
 									[
-										275,
-										276
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										246,
-										247
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "resources/views/netdevices/intestazione.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 320,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								303,
-								303
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										305,
-										307
+										1947,
+										1953
 									]
 								},
 								"icon":
@@ -1664,8 +2443,8 @@
 								{
 									"1":
 									[
-										275,
-										277
+										1838,
+										1844
 									]
 								},
 								"unmatched":
@@ -1674,31 +2453,258 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 272.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "resources/views/netdevices/form.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "resources/views/netdevices/intestazione.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1708,52 +2714,152 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/Http/Requests/StoreCreateNetDevice.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										740,
+										741
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										697,
+										698
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "resources/views/netdevices/netdevice.blade.php",
+					"buffer": 16,
+					"file": "app/Providers/AppServiceProvider.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 751,
+						"buffer_size": 680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								744,
-								744
+								522,
+								522
 							]
 						],
 						"settings":
@@ -1765,8 +2871,8 @@
 								{
 									"1":
 									[
-										744,
-										745
+										536,
+										537
 									]
 								},
 								"icon":
@@ -1781,8 +2887,8 @@
 								{
 									"1":
 									[
-										723,
-										724
+										273,
+										274
 									]
 								},
 								"unmatched":
@@ -1791,31 +2897,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1831,166 +2917,68 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "resources/views/hosts/host.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 640,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										236,
-										237
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										194,
-										195
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "app/Http/Controllers/ProjectController.php",
+					"buffer": 17,
+					"file": "resources/views/layouts/inputcella.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 339,
+						"buffer_size": 332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								307,
-								307
+								177,
+								177
 							]
 						],
 						"settings":
@@ -2002,8 +2990,8 @@
 								{
 									"1":
 									[
-										325,
-										326
+										193,
+										194
 									]
 								},
 								"icon":
@@ -2018,8 +3006,8 @@
 								{
 									"1":
 									[
-										290,
-										291
+										155,
+										156
 									]
 								},
 								"unmatched":
@@ -2028,31 +3016,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -2068,29 +3036,1202 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "resources/assets/sass/_custom.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										259,
+										260
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										184,
+										185
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/Http/Requests/StoreCreateDiskobject.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										610,
+										611
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										594,
+										595
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "app/Netdevice.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										331,
+										332
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										276,
+										277
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "resources/views/hosts/host.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1538,
+								1538
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1587,
+										1593
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1456,
+										1462
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "resources/views/projects/project.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1379,
+								1379
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "resources/views/hosts/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								518,
+								518
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										520,
+										521
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										491,
+										492
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "resources/views/projects/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										199,
+										200
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										189,
+										190
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "resources/views/partitionings/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "resources/views/diskobjects/editbuttons.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 346,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										280,
+										281
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										272,
+										273
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "resources/views/netdevices/editbuttons.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										339,
+										341
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1,
+										3
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
 					"type": "text"
 				}
 			]
@@ -2098,7 +4239,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 70.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -2139,7 +4280,7 @@
 	"project": "generaKS.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2149,12 +4290,92 @@
 		"selected_items":
 		[
 			[
-				"dbmigranetdev",
-				"database/migrations/2017_02_02_120010_create_netdevices_table.php"
+				"unique",
+				"vendor/laravel/framework/src/Illuminate/Validation/Rules/Unique.php"
 			],
 			[
-				"contrnetde",
+				"netdevi",
+				"app/Netdevice.php"
+			],
+			[
+				"netdev",
+				"app/Netdevice.php"
+			],
+			[
+				"netcontro",
 				"app/Http/Controllers/NetdeviceController.php"
+			],
+			[
+				"netdevedit",
+				"resources/views/netdevices/editbuttons.blade.php"
+			],
+			[
+				"netblade",
+				"resources/views/netdevices/netdevice.blade.php"
+			],
+			[
+				"formrequest",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Http/FormRequest.php"
+			],
+			[
+				"netdevicepre",
+				"app/Presenters/NetdevicePresenter.php"
+			],
+			[
+				"configapp.",
+				"config/app.php"
+			],
+			[
+				"configapp",
+				"vendor/psy/psysh/src/Psy/ConfigPaths.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"netdvice",
+				"app/Http/Controllers/NetdeviceController.php"
+			],
+			[
+				"validator",
+				"vendor/laravel/framework/src/Illuminate/Validation/Validator.php"
+			],
+			[
+				"validation",
+				"vendor/laravel/framework/src/Illuminate/Validation/ValidationServiceProvider.php"
+			],
+			[
+				"hosthost",
+				"resources/views/hosts/host.blade.php"
+			],
+			[
+				"projproj",
+				"resources/views/projects/project.blade.php"
+			],
+			[
+				"resprojinde",
+				"resources/views/projects/index.blade.php"
+			],
+			[
+				"procontr",
+				"app/Http/Controllers/ProjectController.php"
+			],
+			[
+				"hostco",
+				"app/Http/Controllers/HostController.php"
+			],
+			[
+				"welcom",
+				"resources/views/welcome.blade.php"
+			],
+			[
+				"web.",
+				"routes/web.php"
+			],
+			[
+				"partitioning.",
+				"app/Partitioning.php"
 			],
 			[
 				"resouasset",
@@ -2199,10 +4420,6 @@
 			[
 				"wel",
 				"app/views/layouts/application.html.erb"
-			],
-			[
-				"welcom",
-				"app/controllers/welcome_controller.rb"
 			],
 			[
 				"test",
@@ -2265,7 +4482,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 395.0,
+	"side_bar_width": 401.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

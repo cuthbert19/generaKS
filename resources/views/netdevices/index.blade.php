@@ -19,6 +19,8 @@
 				
 				@include('netdevices.netdevice')
 
+				@include('netdevices.editbuttons')
+
 			</tr>
 
 			@endforeach

@@ -38,15 +38,15 @@
 
 	<div class="form-group">
 
-		<button class="btn btn-primary btn-lg " type="submit">Modifica</button>
+		<button class="btn btn-primary" type="submit"><i class="fa fa-pencil fa-lg"></i> Modifica</button>
 
-		<a href="/hosts/{{ $host->id }}/netdevices"><button class="btn">Annulla</button></a>
+		<button class="btn btn-outline-primary" type="button"><a href="{{ \Session::get('urlBack') }}"><i class="fa fa-times fa-lg"></i> Annulla</a></button>
 
 	</div>
 
 
 	@if ($errors->count() > 0)
-
+{{--  --}}
 	<div class="form-group">
 		<div class="form-group">
 			<div class="alert alert-danger">

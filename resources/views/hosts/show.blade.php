@@ -19,6 +19,8 @@
 			<tr>
 
 				@include('hosts.host')
+
+				@include('hosts.editbuttons')
 		
 			</tr>
 		

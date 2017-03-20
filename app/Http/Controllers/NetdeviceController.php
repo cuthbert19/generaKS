@@ -3,6 +3,8 @@
 namespace generaKS\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+
 
 use generaKS\Host;
 use generaKS\Netdevice;
@@ -22,7 +24,9 @@ class NetdeviceController extends Controller
     public function show(Netdevice $netdevice)
     {
 
-    	return view('netdevices.show',compact('netdevice'));
+        $host = Host::find($netdevice->host_id);
+
+        return view('netdevices.show',compact('netdevice','host'));
 
     }
 
@@ -33,7 +37,7 @@ class NetdeviceController extends Controller
     	if ($host -> netdevices -> count() > 0 ) {
 
     		$oldnetdevice = $host->netdevices->last();
-    	
+
     	}
 
     	// dd($host);
@@ -45,7 +49,7 @@ class NetdeviceController extends Controller
 
         // dd($netdevices);
 
-    	return view('netdevices.create',compact(
+        return view('netdevices.create',compact(
             'host', 'netdevices', 'bondmasters', isset($oldnetdevice) ? 'oldnetdevice' : '')
         );
 
@@ -66,7 +70,7 @@ class NetdeviceController extends Controller
         $newnetarray =  request(['name','pcislot','linkstatus','isbondmaster','bondslave',
             'ipaddr','netmask','gateway',
             'bcksubnet','bckmask'
-        ]);
+            ]);
 
         // $newnetarray['host_id'] = "$host_id";
 
@@ -75,18 +79,15 @@ class NetdeviceController extends Controller
         // aggiunge il netdevice al database
         Host::find($host_id) -> addNetdevice($newnetarray);
 
+        $request->session()->forget('urlBack');
 
         // ritorna alla view del dettaglio dell'host
-    	return redirect( '/hosts/' . $host_id .'/netdevices');
+        return redirect( '/hosts/' . $host_id .'/netdevices');
 
     }
 
     public function edit(Netdevice $netdevice)
     {
-        
-        // $netdevice -> makeEditable();
-
-        // dd($netdevice);
 
         $host = Host::find($netdevice->host_id);
 
@@ -101,16 +102,18 @@ class NetdeviceController extends Controller
 
     public function update(StoreCreateNetdevice $request, Netdevice $netdevice)
     {
-        
-         $newNetdevArray = request([
-            'name', 'pcislot', 'linkstatus','isbondmaster','bondslave',
-            'ipaddr', 'netmask','gateway',
-            'bcksubnet', 'bckmask',
-            ]);
 
-         $netdevice -> update($newNetdevArray);
+       $newNetdevArray = request([
+        'name', 'pcislot', 'linkstatus','isbondmaster','bondslave',
+        'ipaddr', 'netmask','gateway',
+        'bcksubnet', 'bckmask',
+        ]);
 
-         return redirect('/hosts/' . $netdevice->host_id . '/netdevices');
+       $netdevice -> update($newNetdevArray);
+
+       $request->session()->forget('urlBack');
+
+       return redirect('/hosts/' . $netdevice->host_id . '/netdevices');
 
     }
 

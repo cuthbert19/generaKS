@@ -6,57 +6,38 @@ use Illuminate\Http\Request;
 use generaKS\Host;
 use generaKS\Project;
 use generaKS\Http\Requests\StoreCreateHost;
+use generaKS\Http\Requests\StoreEditHost;
 
 class HostController extends Controller
 {
-
-	// protected $project;
-
-
-	// public function __construct(Project $project)
-	// {
-
-	// 	$this->project = $project;
-
-	// }
-
-
     public function index()
     {
 
-		return view('hosts.index')->with('hosts',Host::all());
+      return view('hosts.index')->with('hosts',Host::all());
     
     }
 
 
     public function show(Host $host)
-	{
-
-		return view('hosts.show',compact('host'));
-    
-    }
-
-
-    /*public function create(Project $project)
     {
 
-    	return view('hosts.create')->with('project',$project);
+      return view('hosts.show',compact('host'));
 
-    }*/
+    }
+
 
     public function create(Request $request, Project $project)
     {
 
-    	if ($project -> hosts -> count() >0 ) {
+        if ($project -> hosts -> count() >0 ) {
 
-    		$oldhost = $project->hosts->last();
-    	
-    	}
+            $oldhost = $project->hosts->last();
 
-    	// dd($project);
+        }
+
         $request->session()->put('project_id', $project->id);
 
-    	return view('hosts.create',compact('project',isset($oldhost) ? 'oldhost' : ''));
+        return view('hosts.create',compact('project',isset($oldhost) ? 'oldhost' : ''));
 
     }
 
@@ -69,7 +50,7 @@ class HostController extends Controller
     		'name' => 'required|unique:hosts',
     		'macaddress' => 'required|unique:hosts',
 
-    	]);*/
+         ]);*/
 
         // La validazione avviene nella FormRequest StoreCreateHost
         //    prima dell'esecuzione del resto del corpo del metodo store()
@@ -83,18 +64,43 @@ class HostController extends Controller
         // crea un array da passare alla funzione helper per la creazione dell'host
         $newhostarray =  request(['name','device','macaddress','partitioning_id']);
 
-        // $newhostarray -> push(['project_id' => $project_id]);
         $newhostarray['project_id'] = "$project_id";
 
-        // dd($newhostarray);
-
         // aggiunge l'host al database
-    	// $project->addHost(request('name'),request('device'),request('macaddress'),$project_id,request('partitioning_id'));
-        $project -> addHost($newhostarray);
+       $project -> addHost($newhostarray);
 
 
         // ritorna alla view del dettaglio del progetto
-    	return redirect( '/projects/' . $project->id );
+        return redirect( '/projects/' . $project->id );
+
+    }
+
+    public function edit(Request $request, Host $host)   
+    {
+
+        $project = Project::find($host->project_id);
+
+        $request->session()->put('project_id', $project->id);
+
+        // dd($request->session());
+
+        return view('hosts.edit',compact('host','project'));
+
+    }
+
+
+    public function update(StoreEditHost $request, Host $host)
+    {
+
+        // dd($request->session());
+        $project_id = $request->session()->pull('project_id');
+
+        $newHostArray = request(['name','device','macaddress','partitioning_id']);
+        $newHostArray['project_id'] = $project_id;
+
+        $host -> update($newHostArray);
+
+        return redirect('/hosts/' . $host->id);
 
     }
 }
