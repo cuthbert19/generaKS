@@ -11,6 +11,14 @@
 
 <hr>
 
+<div class="row">
+	
+	@include('layouts.flash-message')
+
+	@yield('content')
+
+</div>
+
 
 <div class="row">
 
@@ -70,7 +78,7 @@
 
 			<button class="btn btn-primary" type="submit"><i class="fa fa-plus-square fa-lg"></i> Aggiungi</button>
 
-			<button class="btn btn-outline-primary" type="button"><a href="/hosts/{{ $host->id }}"><i class="fa fa-times fa-lg"></i> Annulla</a></button>
+			<button class="btn btn-outline-primary" type="button"><a href="{{ \Session::get('urlBack') }}"><i class="fa fa-times fa-lg"></i> Annulla</a></button>
 
 		</div>
 

@@ -4,7 +4,7 @@ namespace generaKS\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
-
+use Illuminate\Routing\Redirector;
 
 use generaKS\Host;
 use generaKS\Netdevice;
@@ -16,7 +16,7 @@ class NetdeviceController extends Controller
     public function index()
     {
 
-    	return view('netdevices.index')->with('netdevices',Netdevice::all());
+    	return view('netdevices.index')->with('netdevices',Netdevice::paginate(15));
 
     }
 
@@ -72,17 +72,13 @@ class NetdeviceController extends Controller
             'bcksubnet','bckmask'
             ]);
 
-        // $newnetarray['host_id'] = "$host_id";
-
-        // dd($newnetarray);
-
         // aggiunge il netdevice al database
         Host::find($host_id) -> addNetdevice($newnetarray);
 
         $request->session()->forget('urlBack');
 
-        // ritorna alla view del dettaglio dell'host
-        return redirect( '/hosts/' . $host_id .'/netdevices');
+        // ritorna alla view della creazione di nuove interfacce per l'host
+        return redirect( '/hosts/' . $host_id .'/netdevices')->with(['success' => 'Network device ' . request('name') . ' creato con successo']);
 
     }
 
@@ -103,18 +99,47 @@ class NetdeviceController extends Controller
     public function update(StoreCreateNetdevice $request, Netdevice $netdevice)
     {
 
-       $newNetdevArray = request([
-        'name', 'pcislot', 'linkstatus','isbondmaster','bondslave',
-        'ipaddr', 'netmask','gateway',
-        'bcksubnet', 'bckmask',
+        // La validazione avviene nella FormRequest StoreCreateNetdevice
+        //    prima dell'esecuzione del resto del corpo del metodo store()
+
+        $newNetdevArray = request([
+            'name', 'pcislot', 'linkstatus','isbondmaster','bondslave',
+            'ipaddr', 'netmask','gateway',
+            'bcksubnet', 'bckmask',
         ]);
 
-       $netdevice -> update($newNetdevArray);
+        $netdevice -> update($newNetdevArray);
 
-       $request->session()->forget('urlBack');
+        $urlBack = session()->get('urlBack');
+        $request->session()->forget('urlBack');
 
-       return redirect('/hosts/' . $netdevice->host_id . '/netdevices');
+        dd($urlBack);
+
+        return redirect($urlBack)->with(['success' => 'Network device ' . request('name') . ' modificato con successo']);
 
     }
 
+// 
+    public function delete(Netdevice $netdevice)
+    {
+
+        $host = Host::find($netdevice->host_id);
+
+        return view('netdevices.delete',compact('netdevice', 'host'));
+    
+    }
+
+
+    public function destroy(Netdevice $netdevice)
+    {
+        
+        $name = $netdevice->name;
+        $netdevice->delete();
+
+        $urlBack = session()->get('urlBack');
+        $request->session()->forget('urlBack');
+
+        return redirect($urlBack)->with(['success' => 'Network device ' . $name . ' eliminato']);
+
+    }
 }

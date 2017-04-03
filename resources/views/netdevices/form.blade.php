@@ -21,6 +21,7 @@
 	<td class="vert-align fill">
 
 		<select name="linkstatus" id="linkstatus">
+
 			<option value="0" @if(old('linkstatus')) {{ old('linkstatus') == 0 ? 'selected' : ''}} @else @if (isset($oldnetdevice)) {{ $oldnetdevice->linkstatus == 'Down' ? 'selected' : ''}} @endif @endif>Down</option>
 			<option value="1" @if(old('linkstatus')) {{ old('linkstatus') == 1 ? 'selected' : ''}} @else @if (isset($oldnetdevice)) {{ $oldnetdevice->linkstatus == 'Up' ? 'selected' : ''}} @endif @endif>Up</option>
 
@@ -44,10 +45,12 @@
 	<td class="vert-align fill">
 
 		<select name="bondslave" id="bondslave">
+
 			<option value="0" @if(old('bondslave')) {{ old('bondslave') == 0 ? 'selected' : ''}} @else @if (isset($oldnetdevice)) {{ $oldnetdevice->bondslave == 'nessuno' ? 'selected' : ''}} @endif @endif>nessuno</option>
 			@foreach ($bondmasters as $bondmaster)
 			<option value="{{$bondmaster->id}}" {{(old('bondslave') != null) ? old('bondslave') : (isset($oldnetdevice) ? ($oldnetdevice->bondslave == $bondmaster->id ? 'selected' : '') : '')}}>{{$bondmaster->name}}</option>
 			@endforeach
+			
 		</select>
 
 	</td>

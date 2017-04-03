@@ -2,11 +2,24 @@
 
 @section('content')
 
-<div class="row"></div>
+<div class="row">
 
-<h2 class="display-4">Host <strong>{{ $host->name }}</strong></h2>
+	<h2 class="display-4">Modifica configurazione interfaccia</h2>
+
+</div>
 
 <hr>
+
+
+{{-- {{dd(\Session::all())}} --}}
+
+<div class="row">
+	
+	@include('layouts.flash-message')
+
+	@yield('content')
+
+</div>
 
 
 <form method="POST" action="/netdevices/{{ $netdevice->id }}">

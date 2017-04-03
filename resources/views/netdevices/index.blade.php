@@ -29,4 +29,6 @@
 	
 	</table>
 
+	{!! $netdevices->render() !!}
+
 @stop

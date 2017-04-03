@@ -13,7 +13,7 @@ class HostController extends Controller
     public function index()
     {
 
-      return view('hosts.index')->with('hosts',Host::all());
+      return view('hosts.index')->with('hosts',Host::paginate(5));
     
     }
 
