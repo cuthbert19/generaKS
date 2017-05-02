@@ -23,7 +23,9 @@
 
 									<li class="list-group-item">
 
-										<a href="/hosts/{{ $host->id }}" class="nav-link">{{ $host->name}}</a>
+										<div class="col-sm-9" align="left"><a href="/hosts/{{ $host->id }}" class="nav-link">{{ $host->name}}</a></div>
+										<div class="col-sm-1" align="right"><a href="/hosts/{{ $host->id }}/edit" data-toggle="tooltip" title="Modifica"><i class="fa fa-pencil fa-lg"></i></a></div>
+										<div class="col-sm-1" align="right"><a href="/hosts/{{ $host->id }}/delete" data-toggle="tooltip" title="Elimina"><i class="fa fa-trash-o fa-lg"></i></a></div>
 
 									</li>
 
@@ -48,6 +50,8 @@
 				{{-- inserisci nuovo host --}}
 				<div class="panel-footer">
 					<form method="GET" action="/projects/{{ $project->id }}/hosts">
+
+						{{ Session::put('urlBack',\Request::getRequestUri() ) }}
 
 						<button class="list-group-item btn-outline-primary btn-sm small" type="submit"><i class="fa fa-plus"></i> Aggiungi host</button>
 

@@ -38,6 +38,7 @@ Route::post('/hosts/{host}/netdevices','NetdeviceController@store');
 Route::resource('/netdevices', 'NetdeviceController');
 Route::get('/netdevices/{netdevice}/delete','NetdeviceController@delete');
 
+
 Route::resource('/partitionings', 'PartitioningController');
 Route::get('/partitionings/{partitioning}/delete','PartitioningController@delete');
 

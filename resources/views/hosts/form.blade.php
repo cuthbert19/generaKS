@@ -48,9 +48,9 @@
 
 			<div class="form-group row">
 
-				<label for="partitioning" class="col-3 col-form-label">Schema di partizionamento</label>
+				<label for="partitioning" class="col-4 col-form-label">Schema di partizionamento</label>
 				
-				<div class="col-9">
+				<div class="col-8">
 
 					<select name="partitioning_id" id="partitioning" class="form-control tall" >
 						

@@ -1,4 +1,3 @@
-
 @include('layouts.inputcella', 
 	[
 	'name'			=> 'name',
@@ -48,7 +47,7 @@
 
 			<option value="0" @if(old('bondslave')) {{ old('bondslave') == 0 ? 'selected' : ''}} @else @if (isset($oldnetdevice)) {{ $oldnetdevice->bondslave == 'nessuno' ? 'selected' : ''}} @endif @endif>nessuno</option>
 			@foreach ($bondmasters as $bondmaster)
-			<option value="{{$bondmaster->id}}" {{(old('bondslave') != null) ? old('bondslave') : (isset($oldnetdevice) ? ($oldnetdevice->bondslave == $bondmaster->id ? 'selected' : '') : '')}}>{{$bondmaster->name}}</option>
+			<option value="{{$bondmaster->id}}" {{(old('bondslave') != null) ? old('bondslave') : (isset($oldnetdevice) ? ($oldnetdevice->bondslave == $bondmaster->name ? 'selected' : '') : '')}}>{{$bondmaster->name}}</option>
 			@endforeach
 			
 		</select>

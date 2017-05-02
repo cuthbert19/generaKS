@@ -2,6 +2,14 @@
 
 @section('content')
 
+	<div class="row">
+		
+		@include('layouts.flash-message')
+
+		@yield('content')
+
+	</div>
+
 	<table class="table table-striped table-bordered table-hover">
 		
 		<thead class="thead-inverse">

@@ -41,7 +41,7 @@
 
 			<tr>
 
-				@include('netdevices.form', ['oldnetdevice' => $netdevice ])
+				@include('netdevices.form', ['oldnetdevice' => $netdevice, 'debug' => true])
 
 			</tr>
 

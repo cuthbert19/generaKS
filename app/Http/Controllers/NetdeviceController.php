@@ -113,8 +113,6 @@ class NetdeviceController extends Controller
         $urlBack = session()->get('urlBack');
         $request->session()->forget('urlBack');
 
-        dd($urlBack);
-
         return redirect($urlBack)->with(['success' => 'Network device ' . request('name') . ' modificato con successo']);
 
     }
@@ -137,7 +135,7 @@ class NetdeviceController extends Controller
         $netdevice->delete();
 
         $urlBack = session()->get('urlBack');
-        $request->session()->forget('urlBack');
+        session()->forget('urlBack');
 
         return redirect($urlBack)->with(['success' => 'Network device ' . $name . ' eliminato']);
 

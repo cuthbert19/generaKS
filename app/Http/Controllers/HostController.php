@@ -67,13 +67,15 @@ class HostController extends Controller
         $newhostarray['project_id'] = "$project_id";
 
         // aggiunge l'host al database
-       $project -> addHost($newhostarray);
+        $project -> addHost($newhostarray);
 
+        $request->session()->forget('urlBack');
 
         // ritorna alla view del dettaglio del progetto
-        return redirect( '/projects/' . $project->id );
+        return redirect( '/projects/' . $project->id )->with(['success' => 'Host ' . request('name') . ' creato con successo']);
 
     }
+
 
     public function edit(Request $request, Host $host)   
     {
@@ -100,7 +102,11 @@ class HostController extends Controller
 
         $host -> update($newHostArray);
 
-        return redirect('/hosts/' . $host->id);
+        $request->session()->forget('urlBack');
+
+        // ritorna alla view del dettaglio del progetto
+        return redirect('/hosts/' . $host->id)->with(['success' => 'Host ' . request('name') . ' modificato con successo']);
+
 
     }
 }
