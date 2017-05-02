@@ -117,7 +117,7 @@ class NetdeviceController extends Controller
 
     }
 
-// 
+
     public function delete(Netdevice $netdevice)
     {
 

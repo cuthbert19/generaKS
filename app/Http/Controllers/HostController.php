@@ -107,6 +107,39 @@ class HostController extends Controller
         // ritorna alla view del dettaglio del progetto
         return redirect('/hosts/' . $host->id)->with(['success' => 'Host ' . request('name') . ' modificato con successo']);
 
+    }
+
+
+    public function delete(Host $host)
+    {
+
+        $project = Host::find($host->project_id);
+
+        return view('hosts.delete',compact('host', 'project'));
+    
+    }
+
+
+    public function destroy(Host $host)
+    {
+        
+        $name = $host->name;
+
+        // ricava la lista delle interfacce
+        $netdevices = $host->netdevices()->get();
+
+        // elimina tutte le interfacce dell'host
+        foreach ($netdevices as $netdev) {
+            $netdev -> delete();
+        };
+
+        // a questo punto posso eliminare anche l'host
+        $host->delete();
+
+        $urlBack = session()->get('urlBack');
+        session()->forget('urlBack');
+
+        return redirect($urlBack)->with(['success' => 'Host ' . $name . ' eliminato']);
 
     }
 }

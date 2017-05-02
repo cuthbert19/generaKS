@@ -43,7 +43,7 @@ class DiskobjectController extends Controller
 			'device', 'devicetype', 'size', 'fstype', 'logicalname'
 			]);
 
-		dd($newdiskobjectarray);
+		// dd($newdiskobjectarray);
 
         // aggiunge il netdevice al database
         Partitioning::find($partitioning->id) -> addDiskobject($newdiskobjectarray);
